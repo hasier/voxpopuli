@@ -1,2 +1,5 @@
-voxpopuli
-=========
+Vox Populi
+==========
+Vox Populi is a web platform that aims to get the decisions in each city closer to the citizens. By supporting Open 311, Vox Populi provides a standard way of interaction between the citizens and the different parts taking action in resolving the issues in the cities. Any person will be able, either through the developed simple web interface, or through any application that makes use of the open API, to send requests to the corresponding authorities. This way, they will be able to provide feedback or request more information to solve those problems. But it is not only done through a unique channel, the rest of the community will be also able to provide more information and decide whether the issue is really important or not.
+
+This system has been developed as a project for a college course. Currently it is mainly focused in the Bilbao area, and only the frontend part is developed, but it can be easily extended, completed with a backend control area, and established for different places.

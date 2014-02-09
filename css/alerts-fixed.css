@@ -1,0 +1,43 @@
+/* Fixed alerts*/
+/**/
+/* Position to the top or bottom.*/
+
+.alert-fixed-top {
+	position: fixed;
+  width: 100%;
+  z-index: @zindex-alert-fixed;
+  border-radius: 0;
+  margin: 0;
+  left: 0;
+	
+  top: 0;
+  border-width: 0 0 1px 0;
+  
+  @media (min-width: @alert-fixed-width) {
+    .border-bottom-radius(@alert-border-radius);
+    border-width: 0 1px 1px 1px;
+    width: @alert-fixed-width;
+    left: 50%;
+    margin-left: -1 * (@alert-fixed-width / 2);
+  }
+}
+
+.alert-fixed-bottom {
+	position: fixed;
+  width: 100%;
+  z-index: @zindex-alert-fixed;
+  border-radius: 0;
+  margin: 0;
+  left: 0;
+	
+  bottom: 0;
+  border-width: 1px 0 0 0;
+  
+  @media (min-width: @alert-fixed-width) {
+    .border-top-radius(@alert-border-radius);
+    border-width: 1px 1px 0 1px;
+    width: @alert-fixed-width;
+    left: 50%;
+    margin-left: -1 * (@alert-fixed-width / 2);
+  }
+}
